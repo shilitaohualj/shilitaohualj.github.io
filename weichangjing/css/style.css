@@ -27,3 +27,48 @@
     margin-left:-13.5px;
     transform: rotateZ(90deg)
 }
+
+
+
+/*
+    第一屏开始
+*/
+
+
+
+ .s1{
+     background:url("../img/bj.png");
+     height: 100%;
+     position: relative;
+
+ }
+ .s1 .header img{
+     position: absolute;
+ }
+ .s1 .header img:nth-of-type(1){
+     width: 30px;
+     top:120px;
+     left:50px;
+ }
+ .s1 .header img:nth-of-type(2){
+      width: 60px;
+     top:90px;
+     left:270px;
+  }
+ .s1 .header img:nth-of-type(3){
+      width: 50px;
+     left:30px;
+     top:430px;
+  }
+ .s1 .header img:nth-of-type(4){
+     width: 40px;
+     top:410px;
+     left:280px;
+ }
+ .s1 .header img:nth-of-type(5){
+     width: 60%;
+     left:67px;
+     top:160px;
+ }
+
+
