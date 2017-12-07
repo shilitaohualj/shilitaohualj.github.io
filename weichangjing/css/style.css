@@ -36,7 +36,7 @@
 
 
 
- .s1{
+ .s1,.s2{
      background:url("../img/bj.png");
      height: 100%;
      position: relative;
@@ -127,3 +127,12 @@
      left:-88px;
  }
 
+ .s2{
+     color: #09facd;
+     position: relative;
+     width: 100%;
+ }
+ .s2 h2{
+     position: absolute;
+
+ }
