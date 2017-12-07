@@ -126,13 +126,102 @@
  .s1 .footer img:nth-of-type(2){
      left:-88px;
  }
-
+/*
+第二屏
+*/
  .s2{
      color: #09facd;
-     position: relative;
-     width: 100%;
+     margin-top: -21px;
  }
  .s2 h2{
-     position: absolute;
-
+     font-size: 25px;
+     position: relative;
+     top:12%;
  }
+ .s2 small{
+     display: block;
+     padding-top: 11px;
+     letter-spacing: 5px;/*文字间距*/
+     font-size:8px;
+ }
+ .s2 h2::before{
+     content: "";
+     background: url(../img/14.png);
+     background-size: contain;/*图片适应屏幕大小*/
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+    margin-left:-95px;
+     margin-top:7px;
+ }
+ .s2 h2::after {
+     background: url(../img/13.png);
+     background-size: contain;
+     top: 0;
+     content: "";
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+     margin-top:7px;
+     margin-left:60px;
+ }
+ .s2 div{
+     position: absolute;
+     width: 80%;
+     height: 55%;
+     top:25%;
+     left:50%;
+     margin-left: -40%;
+ }
+ .s2 div img {
+     width: 100%;
+     position: absolute;
+     left: 0;
+ }
+ .s2 div p {
+     text-align: left;/*文字左对齐*/
+     padding-left: 10%;
+     padding-right:10%;
+     font-size:16px;
+     line-height: 1.5em;
+     margin-bottom: 10px;
+ }
+
+ .s2 div p:nth-of-type(1) {
+     padding-top: 20px;
+ }
+.s2 div span{
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    color:#000;
+    border-radius: 10px;
+    width: 123px;
+    height: 27px;
+    font-size: 14px;
+    font-weight: bold;/*文字加粗*/
+    line-height: 25px;
+    display: inline-block;
+    position: absolute;
+    margin-left:-60px;
+    bottom: -25px;
+    left: 50%;
+}
+ .s2 .footer{
+     position: absolute;
+     height: 70px;
+     bottom: 0;
+ }
+ .s2 .footer img{
+     width: 100%;
+     top: 430px;
+     height: 70px;
+     width: 470px;
+ }
+ .s2 .footer img:nth-of-type(2){
+     left: -80px;
+ }
+
