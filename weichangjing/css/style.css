@@ -36,7 +36,7 @@
 
 
 
- .s1,.s2{
+ .s1,.s2,.s3{
      background:url("../img/bj.png");
      height: 100%;
      position: relative;
@@ -49,26 +49,35 @@
      width: 30px;
      top:120px;
      left:50px;
+     animation:rotateOutUpRight 7s;
+     animation-fill-mode : forwards;
  }
  .s1 .header img:nth-of-type(2){
       width: 60px;
      top:90px;
      left:270px;
+     animation:rotateOutUpLeft 7s;
+     animation-fill-mode : forwards;
   }
  .s1 .header img:nth-of-type(3){
       width: 50px;
      left:30px;
      top:430px;
+     animation:rotateOutUpRight 7s;
+     animation-fill-mode : forwards;
   }
  .s1 .header img:nth-of-type(4){
      width: 40px;
      top:410px;
      left:280px;
+     animation:rotateOutUpLeft 7s;
+     animation-fill-mode : forwards;
  }
  .s1 .header img:nth-of-type(5){
      width: 68%;
      left:67px;
      top:160px;
+     animation:rotateIn 8s ;
  }
 
  /*
@@ -224,4 +233,21 @@
  .s2 .footer img:nth-of-type(2){
      left: -80px;
  }
+.s3{
+    margin-top:-22px;
+    color: #09facd;
+}
+ .s3 h2{
+     font-size: 25px;
+     position: relative;
+     top:12%;
+ }
+.s3 small{
+    padding-top:11px;
+    display: block;
+    font-size:7px;
+    letter-spacing: 5px;
+}
+ .s3 h2::before{
 
+ }
