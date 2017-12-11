@@ -34,7 +34,38 @@
     第一屏开始
 */
 
+.mp3Btn{
+    z-index: 100;
+    position: absolute;
+    top:5%;
+    right:5%;
+    background: rgba(105, 102, 102, 0.49);
+    border-radius:50%;
+    border: 3px solid rgba(105, 102, 102, 0.49);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    animation: z 4s infinite;
+    animation-timing-function:linear;
+    animation-play-state: running;
+    line-height: 25px;
+}
+@keyframes z {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.mp3Btn img{
+    width: 13px;
+    height: 14px;
 
+}
+.mp3{
+text-align: center;
+}
 
  .s1,.s2,.s3{
      background:url("../img/bj.png");
@@ -249,5 +280,25 @@
     letter-spacing: 5px;
 }
  .s3 h2::before{
-
+     content: "";
+     background: url(../img/14.png);
+     background-size: contain;/*图片适应屏幕大小*/
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+     margin-left:-95px;
+     margin-top:7px;
+ }
+ .s3 h2::after {
+     background: url(../img/13.png);
+     background-size: contain;
+     top: 0;
+     content: "";
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+     margin-top:7px;
+     margin-left:60px;
  }
