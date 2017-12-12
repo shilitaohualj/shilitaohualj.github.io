@@ -1,4 +1,11 @@
- html, body {
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ li{
+     list-style: none;
+ }
+html, body {
       position: relative;
       height: 100%;
     }
@@ -67,7 +74,7 @@
 text-align: center;
 }
 
- .s1,.s2,.s3{
+ .s1,.s2,.s3,.s4,.s5,.s6{
      background:url("../img/bj.png");
      height: 100%;
      position: relative;
@@ -171,7 +178,6 @@ text-align: center;
 */
  .s2{
      color: #09facd;
-     margin-top: -21px;
  }
  .s2 h2{
      font-size: 25px;
@@ -265,7 +271,6 @@ text-align: center;
      left: -80px;
  }
 .s3{
-    margin-top:-22px;
     color: #09facd;
 }
  .s3 h2{
@@ -352,6 +357,167 @@ text-align: center;
      background: #09facd;
      display:block;
      position: absolute;
-     bottom:11.6%;
+     bottom:9.9%;
      left:7%;
+ }
+.s4{
+    color: #09facd;
+}
+.s4 h2{
+    position: relative;
+    font-size: 25px;
+    top:12%;
+}
+.s4 small{
+    display: block;
+    letter-spacing: 5px;
+    padding-top:10px;
+    font-size:7px;
+}
+ .s4 h2::before {
+         content: "";
+         background: url(../img/14.png);
+         background-size: contain; /*图片适应屏幕大小*/
+         width: 80px;
+         height: 20px;
+         position: absolute;
+         left:40px;
+         top:6px;
+         display: inline-block;
+     }
+ .s4 h2::after {
+     content: "";
+     background: url(../img/13.png);
+     background-size: contain; /*图片适应屏幕大小*/
+     width: 80px;
+     height: 20px;
+     position: absolute;
+     right:40px;
+     top:6px;
+     display: inline-block;
+ }
+ .s4 div{
+     position: absolute;
+     width: 90%;
+     height: 55%;
+     top:25%;
+     left:45%;
+     margin-left: -40%;
+ }
+ .s4 div img{
+     width: 100%;
+     position: absolute;
+     left:0;
+ }
+ .s4 div p{
+     margin-top:100%;
+     font-size:15px;
+ }
+
+ .s4 div li img:nth-of-type(1){
+       width: 15px;
+       position: absolute;
+       top:10px;
+       left:30%;
+   }
+ .s4 div li img:nth-of-type(2){
+     position: absolute;
+     top:10px;
+     right:30%;
+     width: 15px;
+ }
+ .s4 ul li{
+    padding-top: 8px;
+    margin-left:-26px;
+ }
+ .s5{
+     color: #09facd;
+ }
+ .s5 h2{
+     font-size: 25px;
+     position: relative;
+     top:12%;
+ }
+ .s5 small{
+     padding-top:11px;
+     display: block;
+     font-size:7px;
+     letter-spacing: 5px;
+ }
+ .s5 h2::before{
+     content: "";
+     background: url(../img/14.png);
+     background-size: contain;/*图片适应屏幕大小*/
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+     margin-left:-95px;
+     margin-top:7px;
+ }
+ .s5 h2::after {
+     background: url(../img/13.png);
+     background-size: contain;
+     top: 0;
+     content: "";
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+     margin-top:7px;
+     margin-left:60px;
+ }
+ .s5 div{
+     position: absolute;
+     width:40%;
+     height: 55%;
+     top:25%;
+     left:42%;
+     margin-left: -40%;
+ }
+ .s5 div img:nth-of-type(1){
+     width: 100%;
+     position: absolute;
+     left:20px;
+ }
+ .s5 div img:nth-of-type(2){
+     width: 85%;
+     position: absolute;
+     left:35px;
+     top:10px;
+ }
+ .s5 div img:nth-of-type(3){
+     width: 100%;
+     position: absolute;
+     left:130%;
+ }
+ .s5 div img:nth-of-type(4){
+     width: 85%;
+     position: absolute;
+     left:135%;
+     top:10px;
+ }
+ .s5 div img:nth-of-type(5){
+     width: 100%;
+     position: absolute;
+     left:20px;
+     top:55%;
+ }
+ .s5 div img:nth-of-type(6){
+     width: 85%;
+     position: absolute;
+     left:26px;
+     bottom:8%;
+ }
+ .s5 div img:nth-of-type(7){
+     width: 100%;
+     position: absolute;
+     left:130%;
+     top:55%;
+ }
+ .s5 div img:nth-of-type(8){
+     width: 85%;
+     position: absolute;
+     left:135%;
+    bottom:8%;
  }
