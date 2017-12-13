@@ -745,3 +745,85 @@ text-align: center;
      top:360px;
      right:-183px;
  }
+ .s6{
+     color: #09facd;
+ }
+ .s6 h2{
+     position: relative;
+     top:12%;
+     font-size:24px;
+ }
+ .s6 small{
+     display: block;
+     letter-spacing: 5px;
+     padding-top:10px;
+     font-size: 8px;
+ }
+ .s6 h2::before{
+     content: "";
+     background: url(../img/14.png);
+     background-size: contain;/*图片适应屏幕大小*/
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+     margin-left:-95px;
+     margin-top:7px;
+ }
+ .s6 h2::after {
+     background: url(../img/13.png);
+     background-size: contain;
+     top: 0;
+     content: "";
+     width: 80px;
+     height: 20px;
+     display: inline-block;
+     position: absolute;
+     margin-top:7px;
+     margin-left:61px;
+ }
+ .s6 .main img:nth-of-type(1){
+     position: absolute;
+     left:11%;
+     top:24%;
+ }
+ .s6 .main img:nth-of-type(2){
+     position: absolute;
+     left:19%;
+     top:24%;
+     width: 270px;
+     height: 25px;
+ }
+ .s6 .main p:nth-of-type(1){
+     position: absolute;
+     left:6%;
+     top:24.6%;
+     width: 270px;
+     height: 25px;
+     color:#000;
+ }
+ .s6 .main img:nth-of-type(3){
+     position: absolute;
+     left:19%;
+     top:30%;
+     width: 270px;
+     height: 95px;
+ }
+ .s6 .main p:nth-of-type(2){
+     position: absolute;
+     left:25%;
+     top:31%;
+     font-size:14px;
+ }
+ .s6 .main p:nth-of-type(3){
+     position: absolute;
+     left:25%;
+     top:35%;
+     font-size:14px;
+ }
+ .s6 .main p:nth-of-type(4){
+     position: absolute;
+     left:25%;
+     top:39%;
+     font-size:14px;
+ }
