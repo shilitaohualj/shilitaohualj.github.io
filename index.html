@@ -5,17 +5,85 @@
     <title>在线项目预览</title>
     <style>
         body{
-            background: url("img/timg.jpg");
-            width: 100%;
-            height: 100%;
+            background: url("img/bz3.jpg");
+            background-size: 100%;
+        }
+        h1{
+            text-align: center;
+            color:#fff;
+            font-size:41px;
+            margin-left: 40%;
+        }
+        .xm1{
+            position: absolute;
+            text-align: center;
+            left:45%;
+            top:20%;
+        }
+        .xm1 a,.xm2 a{
+            text-decoration: none;
+            color:#fff;
+            font-size: 30px;
+            padding-left:50px;
+        }
+        .xm1 a:hover,.xm2 a:hover{
+            color:red;
+        }
+        .xm1 img,.xm2 img{
+            width: 200px;
+            height: 320px;
+            position: absolute;
+            left:0;
+            padding-top: 20px;
+        }
+        .xm2{
+            position: absolute;
+            text-align: center;
+            left:85%;
+            top:20%;
         }
     </style>
-
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 <h1>在线项目预览</h1>
-<a href="weichangjing/index.html">微场景</a>
-<a href="shuangxuanhui/index.html">双选会.</a>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/xm1.jpg" alt="...">
+                <div class="caption">
+                    <h3>微场景</h3>
+
+                    <p><a href="weichangjing/index.html" class="btn btn-primary" role="button">微场景</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="img/xm2.jpg" alt="...">
+                <div class="caption">
+                    <h3>Thumbnail label</h3>
+
+                    <p><a href="shuangxuanhui/index.html" class="btn btn-primary" role="button">双选会</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="..." alt="...">
+                <div class="caption">
+                    <h3>Thumbnail label</h3>
+
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <audio class="mp3" src="mp3/qianrenqianmian1.mp3" autoplay loop></audio>
+<script src="https://cdn.bootcss.com/jqury/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
