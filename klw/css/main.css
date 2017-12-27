@@ -1,0 +1,23 @@
+.main{
+    position: relative;
+}
+p{
+    text-align: center;
+    color:#fff;
+    font-size:20px;
+}
+a{
+    position: absolute;
+    left:48%;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:red;
+}
+.p5{
+    margin-top: 6%;
+}
+body{
+    background: url("img/love.jpg");
+}

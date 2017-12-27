@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    width: 100%;
+    background: #000;
+    height: 65px;
+    position: relative;
+}
+.fenleilogo{
+    position: absolute;
+    left:5%;
+    top:40%;
+}
+.logo{
+    position: absolute;
+    left:18%;
+    top:28%;
+}
+.shoucang{
+    position: absolute;
+    left:70%;
+    top:38%;
+}
+.yonghu{
+    position: absolute;
+    left:80%;
+    top:38%;
+}
+.gouwu{
+    position: absolute;
+    left:90%;
+    top:38%;
+}
+.kuan input{
+    margin-top:2%;
+    width:86%;
+    margin-left:1%;
+    height: 30px;
+    color:#808080;
+    padding-left:40px;
+}
+.ss{
+    position: absolute;
+    top:14%;
+    left:4%;
+}
+.main1 img{
+    background-size: contain;
+    width: 100%;
+    margin-top:2%;
+}
+.main1 p{
+    margin-top: 6%;
+    font-size: 12px;
+    margin-left:6%;
+}
+.maint img{
+    margin-top:1%;
+    margin-left:5%;
+    background-size: contain;
+    width: 70%;
+}
+.main2 img{
+    background-size: contain;
+    width: 100%;
+    margin-top:5%;
+}
+.main2 p{
+    margin-top: 6%;
+    font-size: 12px;
+    margin-left:6%;
+}
+.maint2 img{
+    margin-top:1%;
+    margin-left:5%;
+    background-size: contain;
+    width: 70%;
+}
+.main3 img{
+    background-size: contain;
+    width: 100%;
+    margin-top:5%;
+}
+.main3 p{
+    margin-top: 6%;
+    font-size: 12px;
+    margin-left:6%;
+}
+.maint3 img{
+    margin-top:1%;
+    margin-left:5%;
+    background-size: contain;
+    width: 70%;
+}
+.main4 img{
+    background-size: contain;
+    width: 100%;
+    margin-top:5%;
+}
+.main4 p{
+    margin-top: 6%;
+    font-size: 12px;
+    margin-left:6%;
+}
+.maint4 img{
+    margin-top:1%;
+    margin-left:5%;
+    background-size: contain;
+    width: 70%;
+}
+.main5 img{
+    background-size: contain;
+    width: 100%;
+    margin-top:5%;
+}
+.main5 p{
+    margin-top: 6%;
+    font-size: 12px;
+    margin-left:6%;
+}
+.maint5 img{
+    margin-top:1%;
+    margin-left:5%;
+    background-size: contain;
+    width: 36%;
+    margin-bottom:5%;
+}
+.footer select{
+    background:#000;
+}
+.footert{
+    width: 100%;
+    height: 500px;
+}
+.dropdown button{
+    width: 100%;
+    border-radius: 0px;
+    background: #000;
+    color:#fff;
+    height: 60px;
+
+}
+.dropdown button p{
+    float: left;
+    font-size: 13px;
+    margin-top: 12px;
+}
+.dropdown button small{
+    float: right;
+    font-size: 25px;
+    margin-top:5px;
+}
+.dropdown-menu{
+    width: 100%;
+}
+.dropdown-menu a{
+    width: 100%;
+    height: 40px;
+   margin-top: 5%;
+    font-size: 13px;
+    font-family:Arial;
+}
+.dropdown-menu span{
+   float:right;
+}
+.dropdown .img2{
+    float: left;
+    margin-top: 2%;
+}
+.dropdown .p2{
+    margin-left:3%;
+}
+.footer1{
+    background: #000;
+}
+footer{
+    width: 100%;
+}
+.foor1{
+    background: #000;
+    width: 40%;
+    height:18%;
+    margin-top:6%;
+    margin-left:7%;
+    position: relative;
+    float: left;
+}
+.foor1 img{
+    position: absolute;
+    top:25%;
+    left:20%;
+}
+.foor1 p{
+    text-align: center;
+    color:#fff;
+    padding-top:10%;
+    margin-left:3%;
+}
+.foor2 {
+    background: #000;
+    width: 40%;
+    height:18%;
+    margin-top:6%;
+    margin-left:7%;
+    float: left;
+}
+.foor2 p{
+    text-align: center;
+    color:#fff;
+    padding-top:10%;
+    margin-left:3%;
+}
+
+.foor2 img{
+   position: absolute;
+   left: 61%;
+   margin-top: 3.5%;
+}
+footer::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.footerss{
+    height: 200px;
+}
+.footerss p{
+    margin-top:3%;
+    margin-left:7%;
+}
+.footerss input{
+    width: 70%;
+    height: 40px;
+    margin-left: 7%;
+}
+.footerss .btn1{
+    width: 20%;
+    height:6%;
+    position: absolute;
+    background: #000;
+}
+.footerss a{
+    color:#fff;
+    padding-top: 3%;
+    padding-left:6%;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>金笙宥雯</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .main{
+            position: relative;
+        }
+        p{
+            text-align: center;
+            color:#fff;
+            font-size:20px;
+        }
+        a{
+            position: absolute;
+            left:48%;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+            color:red;
+        }
+        .p5{
+            margin-top: 5%;
+        }
+        body{
+            background: url("img/love.jpg");
+        }
+        .swiper-container {
+            width: 100%;
+            padding-top: 15%;
+            padding-bottom: 50px;
+            background-size: contain;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+
+        }
+        span{
+          color:yellow;
+          font-size: 35px;
+        }
+        .p6{
+            margin-top: 6%;
+        }
+        .ss{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+<p>记得在书上曾经看过</p>
+<p>往左边侧着睡是最不对的睡法</p>
+<p>因为压迫心脏容易引起噩梦</p>
+<p>不过后来我经常这样侧着睡</p>
+<p>梦里，并没有噩梦</p>
+    <p>因为...</p>
+    <p class="p5">因为梦里，有的只是你</p>
+    <p>无论何时有的都只是孔丽雯</p>
+    <p class="p6">我希望有个如你一般的人</p>
+    <p> 如山间清爽的风</p>
+    <p> 如古城温暖的光</p>
+    <p> 从清晨到夜晚</p>
+    <p> 由山野到书房</p>
+    <p> 只要最后是你</p>
+    <p> 就好</p>
+    <p>不知你是否还记得我们今天已经 <span> 618</span>天</p>
+    <p class="ss">如果不记得更好，记好我们要在一起一辈子就好</p>
+    <p>如果你记得的话，那就和我一辈子吧</p>
+    <p>无论如何就和我一辈子吧</p>
+    <p>即使有时候我气你，但是我不是有意的</p>
+    <p>亲爱的。I Love You</p>
+</div>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(imag/1.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/2.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/3.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/4.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/5.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/6.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/7.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/8.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/9.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(imag/10.jpg)"></div>
+    </div>
+</div>
+<audio class="mp3" src="mp3/Salena Jones - 我如此地爱你.mp3" autoplay loop></audio>
+<span class="mp3Btn"><img src="img/musicIcon.png" alt=""></span>
+<script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/Swiper/4.0.5/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+</body>
+</html>
